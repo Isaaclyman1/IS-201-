@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="nbaplayoffs.html">
+      </head>
+      
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #0b3d91;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://cdn.nba.com/manage/2024/04/playoffs-header.jpg');
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 10px 20px;
+    }
+
+    .section {
+    text-align: center;
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    
+    }
+
+    .playoff-image {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    h1, h2 {
+      color: #0b3d91;
+    }
+
+    a[href="#top"] {
+      display: block;
+      margin-top: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    ol, ul {
+      padding-left: 20px;
+    }
+
+    iframe {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+ <!-- Navigation -->
+<nav>
+    <a href="index.html">Professional Pages</a>
+    <a href="webapp.html">Wordle Game</a>
+  </nav>
+  
+  <style>
+    nav {
+      background-color: #0b3d91;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 40px; /* Adds space between links */
+    }
+  
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+  
+    nav a:hover {
+      background-color: white;
+      color: #0b3d91;
+    }
+  </style>
+  
+  <!-- Hero Section -->
+  <div class="hero" id="top">
+    <h1>2025 NBA Playoffs</h1>
+    <p><span style="color: black;">The most exciting time of the basketball season!</span></p>
+  </div>
+  <!-- Playoff Overview Section -->
+  <div class="section" style="text-align: center;">
+    <h2>Top Playoff Teams</h2>
+    <div style="display: inline-block; text-align: left;">
+      <ol>
+        <li>Eastern Conference
+          <ul>
+            <li>Cleveland Cavaliers</li>
+            <li>Boston Celtics</li>
+            <li>New York Knicks</li>
+          </ul>
+        </li>
+        <br>
+        <li>Western Conference
+          <ul>
+            <li>Oklahoma City Thunder</li>
+            <li>Houston Rockets</li>
+            <li>Los Angeles Lakers</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </div>
+  
+
+  <!-- Image Section -->
+  <div class="section">
+    <h2>2025 NBA Playoff Bracket</h2>
+    <img src="assets/img/NBA Bracket.jpg" alt="NBA Action" class="playoff-image">
+  </div>
+
+ <!-- YouTube Video Section -->
+<div class="section" style="text-align: center;">
+    <h2>Best Moments from the 2024-25 Regular Season</h2>
+    <iframe 
+    width="560" height="315" src="https://www.youtube.com/embed/j2kvgwLapKk" title="The Top 100 Plays of the 2024-25 NBA Regular Season" frameborder="0"
+     allowfullscreen>
+    </iframe>
+
+  
+    </iframe>
+  </div>
+  
+  
+
+  <!-- Tableau Graph Section -->
+  <!-- Tableau Graph Section -->
+<div class="section">
+    <h2>League Leaders Across Key Stats</h2>
+    <div class='tableauPlaceholder' id='viz1744829286429' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='League Leaders Across Key Stats'
+               src='https://public.tableau.com/static/images/NB/NBA2024-2025MidseasonAnalysis-LeagueLeaders/Sheet62/1_rss.png'
+               style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='NBA2024-2025MidseasonAnalysis-LeagueLeaders/Sheet62' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/NB/NBA2024-2025MidseasonAnalysis-LeagueLeaders/Sheet62/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+  </div>
+  
+  <!-- Tableau Script -->
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1744829286429');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+  
+
+  <!-- Anchor Section -->
+  <div class="section">
+    <a href="#top">Back to Top</a>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    // Show the Tableau graph on load
+    document.addEventListener("DOMContentLoaded", function () {
+      var vizDiv = document.getElementById('viz1688');
+      var vizObj = vizDiv.getElementsByTagName('object')[0];
+      vizObj.style.display = 'block';
+    });
+  </script>
+</body>
+</html>
