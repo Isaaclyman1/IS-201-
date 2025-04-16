@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #0b3d91;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: #0b3d91;
+  }
+  
+  .hero {
+    background-image: url('https://cdn.nba.com/manage/2024/04/playoffs-header.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px 20px 20px; /* top right bottom left */
+  }
+  
+  .section h2 {
+    text-align: center; /* Centers the title */
+    font-size: 2.5rem; /* Adjust the font size to suit */
+    margin-bottom: 20px; /* Adds spacing between the title and the image */
+    color: #0b3d91; /* Optional: Adjust the color to match the theme */
+  }
+  
+  .playoff-image {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  h1, h2 {
+    color: #0b3d91;
+  }
+  
+  a[href="#top"] {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  ol, ul {
+    padding-left: 20px;
+  }
+  
+  iframe {
+    max-width: 100%;
+  }
+  
